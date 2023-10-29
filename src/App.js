@@ -38,7 +38,7 @@ export default function Board() {
     if (winner){
         status = "Winner: " + winner;
     } else if (squares.every(square => square !== null)) {
-        status = "Berabere Bitti!";
+        status = "Kazanan Yok!";
     } else {
         status = "Next Player: " + (xIsNext ? "X" : "O");
     }
